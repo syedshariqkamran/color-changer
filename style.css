@@ -1,0 +1,54 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the whole page */
+body {
+    background-color: #fff; /* Default background color (white) */
+}
+
+/* Style the container and text */
+.convas {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333; /* Text color */
+}
+
+h2 {
+    font-size: 24px;
+    color: #666; /* Text color */
+}
+
+/* Style the color buttons */
+.button {
+    display: inline-block;
+    width: 60px; /* Increase the width */
+    height: 60px; /* Increase the height */
+    margin: 10px; /* Increase the margin for spacing */
+    border: 2px solid #333; /* Border color */
+    cursor: pointer;
+}
+
+/* Define the colors for each button */
+#grey {
+    background-color: #ccc; /* Grey */
+}
+
+#white {
+    background-color: #fff; /* White */
+}
+
+#blue {
+    background-color: #3498db; /* Blue */
+}
+
+#yellow {
+    background-color: #f1c40f; /* Yellow */
+}
